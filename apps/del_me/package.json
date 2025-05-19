@@ -1,8 +1,0 @@
-{
-  "name": "@inflicted/del_me",
-  "version": "0.0.1",
-  "private": true,
-  "nx": {
-    "name": "del_me"
-  }
-}

@@ -68,5 +68,18 @@
         "linter": "eslint"
       }
     }
+  },
+  "targetDefaults": {
+    "@nx/rspack:rspack": {
+      "inputs": [
+        "production",
+        "^production",
+        {
+          "env": "NX_MF_DEV_REMOTES"
+        }
+      ],
+      "dependsOn": ["^build"],
+      "cache": true
+    }
   }
 }
